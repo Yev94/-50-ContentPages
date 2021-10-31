@@ -1,0 +1,88 @@
+#ri-top-navbar {
+    background: #880000;
+    font-size: 14px;
+	margin-bottom: 20px;
+    display: block;
+}
+
+#ri-top-navbar .topbar-left a {
+    color: #fff;
+}
+
+#ri-top-navbar a {
+    color: #fff;
+}
+
+#ri-top-navbar a:hover, #ri-top-navbar a:focus {
+    color: #c94141;
+    background: transparent;
+}
+
+[class*="icon-social-"] {
+    width: 100px;
+    height: 38px;
+    background: transparent;
+    font-size: 28px;
+    line-height: 38px;
+    margin-right: 4%;
+    text-align: center;
+    -webkit-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+
+.move-text{
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.move-text ul{
+    list-style: none;
+    font-size: 25px;
+    margin: 5px;
+    animation: cambiar 10s infinite;
+}
+
+.move-text a{
+    text-decoration: none;
+}
+
+.h6{
+    font-weight: 100;
+}
+
+.top-nav-icons .align-middle{
+    vertical-align: 5px !important;
+}
+
+@keyframes cambiar{
+    0% {margin-top: 0;}
+    20% {margin-top: 0;}
+
+    25% {margin-top: -30.2px;}
+    50% {margin-top: -30.2px;}
+
+    55% {margin-top: -60.4px;}
+    80% {margin-top: -60.4px;}
+
+    85% {margin-top: -90.6px;}
+    95% {margin-top: -90.6px;}
+
+    100%{margin-top: 0;}
+}
+
+@media (min-width: 1200px){
+    @keyframes cambiar{
+    0% {margin-top: 0;}
+    25% {margin-top: 0;}
+
+    35% {margin-top: -30.2px;}
+    60% {margin-top: -30.2px;}
+
+    70% {margin-top: -60.4px;}
+    95% {margin-top: -60.4px;}
+
+    100%{margin-top: 0;}
+}
+}
